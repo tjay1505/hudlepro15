@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.head1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 4%;
+
+}
+
+img{
+    padding-top: 2%;
+    width: 18vw;
+    height: 90%;
+}
+
+a {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 0.5px solid rgb(255, 52, 255);
+    width: 11vw;
+    border-radius: 50px;
+    margin-top: 15px;
+    display: flex;
+    height: 3vmax;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 109, 243);
+
+
+
+}
+
+span {
+    font-size: 2%;
+}
+
+.head2{
+    padding-top: 8%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head2 > h2 {
+    font-size: 4vmax;
+    font-weight: bolder;
+}
+.head2 > p{
+    font-size: 1.3vmax;
+    padding-top: 3%;
+}
+.head2 > a {
+    align-items: center;
+    align-content: center;
+    background-color: rgb(252, 85, 238);
+    text-decoration: none;
+    width: 26vw;
+    border-radius: 50px;
+    margin-top: 15px;
+    display: flex;
+    height: 5vmax;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.head2 > img {
+    width: 80vw;
+    padding-top: 6%;
+
+}
+
+.head3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 9%;
+}
+
+.in3 > img{
+    width:4vmax;
+    height: 4vmax;
+}
+.in3 > h1{
+    font-size: 7vmax;
+}
+.in3 > p {
+    font-size: 2vmax;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.in4 > img {
+    width:4vmax;
+    height: 4vmax;
+
+}
+.in4 > h1{
+    font-size: 7vmax;
+}
+.in4 > p {
+    font-size: 2vmax;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+.head4{
+    padding-top: 5%;
+    margin-top: 5%;
+    background-image: url(/images/bg-section-top-desktop-1.svg),url(/images/bg-section-top-desktop-2.svg);
+
+    display: flex;
+
+    justify-content: space-around;
+
+}
+.inn4{
+   padding-top: 10%;
+}
+.inn4 > h1{
+    font-size: 3vmax;
+    text-align: left;
+    font-weight: bolder;
+}
+.inn4 > p {
+    padding-top:4% ;
+    text-align: left;
+    font-size: 1.3vmax;
+}
+.head4 > img{
+    width: 30vw;
+}
+
+/*      ------------------------------------------------- */
+.head5{
+    padding-top: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.inn5{
+   padding-top: 10%;
+}
+.inn5 > h1{
+    font-size: 3vmax;
+    text-align: left;
+    font-weight: bolder;
+}
+.inn5 > p {
+    padding-top:4% ;
+    text-align: left;
+    font-size: 1.3vmax;
+}
+.head5 > img{
+    width: 30vw;
+}
+
+/* ----------------------- */
+
+.head6{
+    padding-top: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/images/bg-section-bottom-desktop-2.svg),url(/images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+
+} 
+.inn6{
+   padding-top: 10%;
+}
+.inn6 > h1{
+    font-size: 3vmax;
+    text-align: left;
+    font-weight: bolder;
+}
+.inn6 > p {
+    padding-top:4% ;
+    text-align: left;
+    font-size: 1.3vmax;
+}
+.head6 > img{
+    width: 30vw;
+}
+
+/* ------------------- */
+
+.head7{
+    padding-top: 8%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head7 > a{
+   
+    align-content: center;
+    background-color: rgb(252, 85, 238);
+    text-decoration: none;
+    width: 26vw;
+    border-radius: 50px;
+    margin-top: 15px;
+    display: flex;
+    height: 5vmax;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.3vmax;
+}
+.head7 > h1{
+    font-size: 3.5vmax;
+
+}
+
+/* ----footer--------- */
+
+.desfoot{
+    padding-top: 6%;
+    margin-top: 7%;
+    background-image: url(/images/bg-footer-top-desktop.svg);
+    
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 30vh;
+    width: 100vmax;
+}
+
+.foot{
+    border: 2px solid black;
+    color: rgb(255, 77, 23);
+   
+    
+    background-color: rgb(0, 0, 0);
+    
+}
+.logo > p {
+    font-size: 1.3vmax;
+}
+
+.totalfoot{
+    display: flex;
+    flex-direction: column;
+}
